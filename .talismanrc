@@ -1,0 +1,6 @@
+fileignoreconfig:
+  - filename: first-app/yarn.lock
+    checksum: d54278b7761f43e4539a97fdf5082a75da6d96ed62f2d30d8d1015fb28058e13
+  - filename: first-app/pages/home/_components/goal-list.js
+    checksum: 4543ff656a64c9e95a7da12370618629028b36621dc87a2d9479643256551d94
+version: ""

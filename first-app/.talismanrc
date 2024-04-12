@@ -1,0 +1,6 @@
+fileignoreconfig:
+  - filename: yarn.lock
+    checksum: 40b35890d1a7ca248a656f6ec7d1c5fc6ec2ad54921b57a2923750ff93ddcbf1
+  - filename: pages/home/_components/goal-list.js
+    checksum: f1751b86fb210382cb92784937a87b3b308866910c297f58e38a0d3872d9a07a
+version: ""
