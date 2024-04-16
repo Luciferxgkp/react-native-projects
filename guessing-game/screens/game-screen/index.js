@@ -1,4 +1,4 @@
-import { Alert, Text, View } from "react-native";
+import { Alert, FlatList, Text, View } from "react-native";
 import { styles } from "./style";
 import Title from "../../components/ui/title";
 import { useEffect, useState } from "react";
@@ -6,6 +6,7 @@ import NumberContainer from "../../components/game/number-container";
 import InstructionText from "../../components/ui/instruction-text";
 import Card from "../../components/ui/card";
 import PrimaryButton from "../../components/ui/primary-button";
+import GuessLogItem from "../../components/game/guess-log-item"
 import { Ionicons } from "@expo/vector-icons";
 
 const generateRandomBetween = (min, max, exclude) => {
@@ -76,6 +77,20 @@ const GameScreen = ({ userNumber, onGameOver }) => {
           </View>
         </View>
       </Card>
+      <View style={styles.listContainer}>
+        <FlatList
+          data={guessRounds}
+          renderItem={({ item, index }) => {
+            return (
+              <GuessLogItem
+                roundNumber={guessRoundsListLength - index}
+                guess={item}
+              />
+            );
+          }}
+          keyExtractor={(item) => item}
+        />
+      </View>
     </View>
   );
 };

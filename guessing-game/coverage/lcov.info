@@ -3,9 +3,9 @@ SF:components/ui/card/index.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:1
-FNDA:13,(anonymous_0)
-DA:4,2
-DA:5,13
+FNDA:17,(anonymous_0)
+DA:4,3
+DA:5,17
 LF:2
 LH:2
 BRF:0
@@ -15,7 +15,7 @@ TN:
 SF:components/ui/card/style.js
 FNF:0
 FNH:0
-DA:4,2
+DA:4,3
 LF:1
 LH:1
 BRF:0
@@ -26,9 +26,9 @@ SF:components/ui/instruction-text/index.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:1
-FNDA:1,(anonymous_0)
-DA:4,1
-DA:5,1
+FNDA:5,(anonymous_0)
+DA:4,2
+DA:5,5
 LF:2
 LH:2
 BRF:0
@@ -38,7 +38,7 @@ TN:
 SF:components/ui/instruction-text/style.js
 FNF:0
 FNH:0
-DA:4,1
+DA:4,2
 LF:1
 LH:1
 BRF:0
@@ -71,7 +71,7 @@ TN:
 SF:constants/colors.js
 FNF:0
 FNH:0
-DA:1,5
+DA:1,7
 LF:1
 LH:1
 BRF:0

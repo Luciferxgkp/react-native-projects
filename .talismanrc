@@ -1,6 +1,6 @@
 fileignoreconfig:
   - filename: guessing-game/coverage/coverage-final.json
-    checksum: c92d957dc1bb3ac78801bdef8609d79587bb2d4172088bcfc2df8c0907d141f3
+    checksum: d35b9de77da6a899884f0088fde1ec55e7319abb49c28739e5f47d3d70c97560
   - filename: guessing-game/coverage/lcov-report/base.css
     checksum: f560bde15b62cef6487f860aa20f193c6d3a520a45ac779e3fb5a58e02ced24f
   - filename: guessing-game/coverage/lcov-report/block-navigation.js
@@ -15,4 +15,6 @@ fileignoreconfig:
     checksum: a84e274358105ddebd8a03d24621cbb40fc4d35c6d77de5dade44133ab24c8e2
   - filename: guessing-game/yarn.lock
     checksum: c7c3a2de4ba908c307d388e07ee6dbb7e9126a5cab199693c4abf070d5a8ade6
+  - filename: guessing-game/screens/game-screen/index.js
+    checksum: 4c35cca42c7cc093bc280c2fb5ce0d7a56b44deddf39cbd806a3f683a640b4c6
 version: ""
