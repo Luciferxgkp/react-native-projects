@@ -1,6 +1,18 @@
 fileignoreconfig:
-  - filename: first-app/yarn.lock
-    checksum: d54278b7761f43e4539a97fdf5082a75da6d96ed62f2d30d8d1015fb28058e13
-  - filename: first-app/pages/home/_components/goal-list.js
-    checksum: 4543ff656a64c9e95a7da12370618629028b36621dc87a2d9479643256551d94
+- filename: guessing-game/coverage/coverage-final.json
+  checksum: 6dff597d0da3015e619197d57c552a058516605fb6f528959c63b1529cca4cd9
+- filename: guessing-game/yarn.lock
+  checksum: 871643e6f9af5aabc784fe2f55dc109b0c6686a131786e6d2b1df71d8f762ecb
+- filename: guessing-game/coverage/lcov-report/base.css
+  checksum: f560bde15b62cef6487f860aa20f193c6d3a520a45ac779e3fb5a58e02ced24f
+- filename: guessing-game/coverage/lcov-report/block-navigation.js
+  checksum: a86e92b08c76f5dca68517d2a9ef5bbd21dd57e05cab87647fa3d3a22b92b4a1
+- filename: guessing-game/coverage/lcov-report/sorter.js
+  checksum: 25356cfd7df8bc18b69460d1b613e9406379f894274caf936026469b5fba5cbd
+- filename: guessing-game/coverage/lcov-report/screens/start-game-screen/index.js.html
+  checksum: d572de693c9eeb822586e4d982d8e85982b6465d112911525720cf60f204e168
+- filename: guessing-game/screens/start-game-screen/index.js
+  checksum: d90844ab4849b1e3f7b55b552c4e32f1b7c875bbc83e107078547d792f623328
+- filename: guessing-game/coverage/lcov-report/prettify.js
+  checksum: a84e274358105ddebd8a03d24621cbb40fc4d35c6d77de5dade44133ab24c8e2
 version: ""
