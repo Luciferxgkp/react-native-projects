@@ -12,6 +12,7 @@ import AppLoading from "expo-app-loading";
 import { LinearGradient } from "expo-linear-gradient";
 import { colors } from "./constants/colors";
 import { useState } from "react";
+import GameScreen from "./screens/game-screen";
 
 export default function App() {
   const [userNumber, setUserNumber] = useState();
@@ -30,7 +31,18 @@ export default function App() {
     setGameIsOver(false);
   };
 
+  const gameOverHandler = (numberOfRounds) => {
+    setUserNumber(null);
+    setGuessRounds(numberOfRounds);
+  };
+
   let screen = <StartGameScreen onPickNumber={pickedNumberHandler} />;
+
+  if (userNumber) {
+    screen = (
+      <GameScreen userNumber={userNumber} onGameOver={gameOverHandler} />
+    );
+  }
   return (
     <LinearGradient
       colors={[colors.primary700, colors.accent500]}
