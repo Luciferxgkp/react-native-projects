@@ -6,7 +6,7 @@ import NumberContainer from "../../components/game/number-container";
 import InstructionText from "../../components/ui/instruction-text";
 import Card from "../../components/ui/card";
 import PrimaryButton from "../../components/ui/primary-button";
-import GuessLogItem from "../../components/game/guess-log-item"
+import GuessLogItem from "../../components/game/guess-log-item";
 import { Ionicons } from "@expo/vector-icons";
 
 const generateRandomBetween = (min, max, exclude) => {
@@ -24,6 +24,12 @@ const GameScreen = ({ userNumber, onGameOver }) => {
   const initialGuess = generateRandomBetween(1, 100, userNumber);
   const [currentGuess, setCurrentGuess] = useState(initialGuess);
   const [guessRounds, setGuessRounds] = useState([initialGuess]);
+
+  useEffect(() => {
+    if (currentGuess === userNumber) {
+      onGameOver(guessRounds.length);
+    }
+  }, [currentGuess, userNumber, onGameOver]);
 
   useEffect(() => {
     minBoundry = 1;
