@@ -94,7 +94,7 @@ const GameScreen = ({ userNumber, onGameOver }) => {
               />
             );
           }}
-          keyExtractor={(item) => item}
+          keyExtractor={(item) => item * Math.random()}
         />
       </View>
     </View>
